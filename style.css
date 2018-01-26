@@ -1,0 +1,276 @@
+
+.mypage{
+    /* The image used */
+    background-image: url("images/3.jpg");
+
+    /* Full height */
+   
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+	height: 40px;	
+	list-style-type: none;
+	padding-right: 15px;
+	margin: 20px;
+	text-align: right;
+	background-color: gray;
+	padding-top: 10px;	
+
+}
+ul li {
+	
+	font-size: 17vw;
+	line-height: 1.59;
+	display: inline-block;
+
+}
+ul li:hover
+{
+	color: black;
+	background-color:#bad7ec;
+	 
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: white;
+}
+a:link {
+   
+     text-decoration: none;
+     background-color: transparent;
+}
+/*profile style*/
+.my-info
+{
+	background-image: url("images/2.jpg"); 
+	background-size: cover;
+	height:58%;
+	border:10px;
+	border-style: inset;
+	display: block;	
+	margin-top: 15px;
+}
+.info{
+	width:30%;
+border-style: none;
+float:left;
+}
+h1{
+	font-weight: bold;
+font-family: inherit;
+font-stretch: expanded;
+}
+.info img
+{
+margin:30px;
+
+
+ 	}
+.info:hover img
+{
+
+  transform: scale(1.1);
+  
+}
+.my-content
+{
+	display: inline;
+	padding-top: 130px;
+	padding-right: 80px;
+	float:right;
+	color: #00008B;
+	text-shadow: 3px 3px 5px white;
+}
+#my-education
+{
+	margin-top: 20px;
+	
+	}
+.education
+{
+
+	background-color:rgba(0 0 0 0.1);
+	height:65%;
+	
+	
+}
+#ed-school
+{
+
+	display: block;
+
+	
+
+}
+#ed-inter
+{
+	
+	display: block;
+
+}
+
+#ed-btech
+{
+		
+	display:block;
+	
+
+}
+.skilbar
+{
+	background-image: url("images/3.jpg");
+	 background-size: cover;
+
+
+
+}
+#my-skils
+{
+	
+	padding-bottom: 15px;
+	padding-right: 150px;
+	padding-left: 150px;
+
+}
+
+.progress
+{
+	height:7px;
+	
+}
+ #c:hover
+{
+	
+ height:25px;
+ padding-right: 20px;
+}
+.skilbar p{
+	font-size: 30px;
+}
+ #java:hover
+{
+	
+ height:25px;
+ padding-right: 20px;
+}
+ #ht:hover
+{
+	
+ height:25px;
+ padding-right: 20px;
+}
+ #css:hover
+{
+	
+ height:25px;
+ padding-right: 20px;
+}
+ #js:hover
+{
+	
+ height:25px;
+ padding-right: 20px;
+}
+#boot:hover
+{	
+ height:25px;
+ padding-right: 20px;
+}
+#my-protfolio
+{
+	margin-bottom: 20px;
+}
+#pro
+{
+	margin-top: 20px;
+}
+#protfolio-c 
+{
+	background-color:rgba(192,192,192,0.5);
+	
+}
+.pro-content
+{
+padding-top: 10%;
+height:45%;
+display: inline-block;
+}
+.pro-content h3
+{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+.pro-content p
+{
+	font-size: 15px;
+	word-spacing: 4px;
+	line-height: 25px;
+	color:#00008B;
+	font-style: italic; 
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	display: inline-block;
+}
+.social
+{
+	background-color:rgba(0,0,0,0.1);
+	padding-top:5px;
+	padding-bottom: 5px;
+	text-align: center;
+	word-spacing: 8px;
+}
+.social a:hover,
+.social a:focus {
+	border: 2px solid white;
+	border-radius: 50%;
+	color: blue;
+	max-height: 40px;
+}
+/*Media Responsiveness*/
+@media (max-width: 768px) {
+    .container {
+        /*container at min width 768px*/
+        width: 750px; } }
+@media (max-width: 992px) {
+    .container {
+        /*container at min width 992px*/
+        width: 970px; } }
+@media (max-width: 1200px) {
+    .container {
+        /*container at min width 1200px*/
+        width: 1000px; }
+    }
+        @media (max-width: 360px) {
+    .container {
+        /*container at min width 1200px*/
+        width: 348px; }
+        #my-skils{
+        	padding: 0;
+        }
+        .my-content{
+        	padding-top: 5px;
+        	padding-right: 0;
+        	padding-left: 0;
+        }
+        .education{
+        	margin-right: 50px;
+        }
+        .info{
+        	float:right;
+        	margin-right: 150px;
+        }
+        .info:hover img{
+        	transform: scale(1.4);
+  
+        }
+
+
+         }

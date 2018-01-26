@@ -5,6 +5,7 @@
 <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--Angularjs-->
 <script src="js/angular.min.js"></script>
 <!--Jquery-->
@@ -22,9 +23,9 @@
 
 <meta name="HandheldFriendly" content="true"> 
 <!--Stlesheet-->
- <link href="css/style.css" rel="stylesheet">
+ <link href="style.css" rel="stylesheet">
 </head>
-<body class="mypage" style="background: url(images/6.jpg); background-size: cover;">
+<body class="mypage" >
 <!--start my profile-->
 <!--<header id="my-header">
 <div id="header-tab">
@@ -42,7 +43,7 @@
 <div class="container">
 <div class="row">
 
-<div id="my-info" style="background: url(images/4.jpg); background-size: cover;">
+<div class="my-info">
 <div class="col-md-12 col-sm-12 col-xs-12">
 <div class="info">
 <img  src="images/1.jpg" class="img-responsive" style="border-radius:50%;width:250px;"/>
@@ -63,12 +64,12 @@
 <div class="container">
 <div class="education">	
 <div class="row">
-<center><h1 style="color:darkblue;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>EDUCATION<h1></center>
+<center><h1 style="color:#00008B;"><i class="fa fa-graduation-cap" aria-hidden="true"></i>EDUCATION<h1></center>
 <div id="ed-school" class="col-md-4 col-sm-4 col-xs-4">
 <center><h2><b>School</b></h2>
 <h3>SSC</h3>
 <svg  width="150" height="150">
-  <circle  cx="75" cy="75" r="50" fill="darkblue" />
+  <circle  cx="75" cy="75" r="50" fill="#00008B" />
   <text x="50%" y="50%" text-anchor="middle" font-size="20px" fill="white"  font-family="Arial" dy=".3em">
 (2010-11)
 </text>
@@ -78,7 +79,7 @@
 <center><h2><b>Inter</b></h2>
 <h3>MPC</h3>
 <svg  width="150" height="150">
-  <circle  cx="75" cy="75" r="50" fill="darkblue" />
+  <circle  cx="75" cy="75" r="50" fill="#00008B" />
   <text x="50%" y="50%" text-anchor="middle" font-size="20px" fill="white"  font-family="Arial" dy=".3em">
 (2012-13)
 </text>
@@ -87,7 +88,7 @@
 </div>
 <div id="ed-btech" class="col-md-4 col-sm-4 col-xs-4">
 <center><h2><b>Bachelor's</b></h2>
-<h3>Information Technology</h3>
+<h3>IT</h3>
 <svg  width="150" height="150">
   <circle  cx="75" cy="75" r="50" fill="#00008B"/>
   <text x="50%" y="50%" text-anchor="middle" font-size="20px" fill="white"  font-family="Arial" dy=".3em">
@@ -104,12 +105,12 @@
 <section class="skills">
 <div class="container">
 <div class="row">
-<div id="my-skils" class="col-md-8 col-sm-8 col-xs-8">
-<center><h1 style="font-size:50px; color:darkblue;"><i class="fa fa-cogs" style="font-size:50px padding:40px;"></i>   SKILS</h1></center>
+<div id="my-skils" class="col-md-12 col-sm-12 col-xs-12">
+<center><h1 style="font-size:50px; color:#00008B;"><i class="fa fa-cogs" style="font-size:50px padding:40px;"></i>   SKILS</h1></center>
 <!--<h2> Professional</h2>-->
 <br>
 <br>
-<div id="silkbar" style="background: url(images/6.jpg); background-size: cover;">
+<div class="skilbar">
 <p><b>C programming<b></p>
 <p style="float:right;">70%</p>
 <div class="progress" id="c">
@@ -141,13 +142,61 @@
     <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
     </div>
   </div>
+  <p><b>BOOT STRAP<b></p>
+  <p style="float:right;">50%</p>
+  <div class="progress" id="boot">
+    <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+    </div>
+  </div>
   <br/>
 </div>
 </div>
 </div>	
 </div>
 </section>
+<!--End of Skils-->
+<!--Start Protfolio-->
+<section id="my-protfolio">
+<div class="container">
+<center><h1 style="font-size:50px; color:#00008B;"><i class="fa fa-cogs" style="font-size:50px padding:40px;"></i>   PROTFOLIO</h1></center>
+<div id="pro"class="row">
+<div id="protfolio"  class="col-md-6 col-sm-6 col-xs-6">
+<div class="pro-image">
+<img src="images/5.jpg"  class="img-responsive" alt="Image contain one girl eyes" width="100%" height="10%"></img>
+</div>
+</div>
+<div id="protfolio-c"  class="col-md-6 col-sm-6 col-xs-6">
+<div class="pro-content">
+<center><h3>DREAMS</h3>
+<p>A framework that provides run-time partitioning skew mitigation.  It can eliminates the repartitioning overhead
+and improve the job completion time.</p></center>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--End of PRotfolio-->
+<!--Start Contact-->
+<section id="my-contact">
+<div class="container">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="footer">
+<center><h2><i class="material-icons" style="font-size:48px;color:#00008B">send</i> Contact</h2></center>
+<div class="social">
 
+<a href="https://www.facebook.com/naga.raavi/"><i class="fa fa-facebook-square" style="font-size:28px;color:#00008B"></i></a>
+<a href="http://twitter.com/nagadurgaraavi"><i class="fa fa-twitter-square" style="font-size:28px;color:#00008B"></i></a>
+<a href="https://plus.google.com/u/0/105564390019370566986"><i class="fa fa-google-plus" style="font-size:28px;color:#00008B"></i></a>
+							<a href="www.linkedin.com/in/nagadurga-raavi"><i class="fa fa-linkedin-square" style="font-size:28px;color:#00008B"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--End of Contact-->
 
 </body>
 </html>
