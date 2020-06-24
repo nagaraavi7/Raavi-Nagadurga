@@ -233,7 +233,7 @@ display: inline-block;
 	border: 2px solid white;
 	border-radius: 50%;
 	color: blue;
-	max-height: 150px;
+	max-height: 300px;
 }
 /*Media Responsiveness*/
 @media (max-width: 768px) {
