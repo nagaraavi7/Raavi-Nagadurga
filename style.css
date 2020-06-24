@@ -36,10 +36,10 @@ ul li:hover
 	 
 }
 a:visited {
-    color: white;
+    color: purple.;
 }
 a:active {
-    color: white;
+    color: red;
 }
 a:link {
    
@@ -233,7 +233,7 @@ display: inline-block;
 	border: 2px solid white;
 	border-radius: 50%;
 	color: blue;
-	max-height: 80px;
+	max-height: 150px;
 }
 /*Media Responsiveness*/
 @media (max-width: 768px) {
